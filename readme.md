@@ -2,11 +2,11 @@
 
 # - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
-<p>He utilizado el comando `git reset --hard HEAD~1`, `git reset HEAD~1` solo nos devolvería
+He utilizado el comando `git reset --hard HEAD~1`, `git reset HEAD~1` solo nos devolvería
 al commit padre(anterior) pero mantendría los cambios realizados en el working copy por lo
 que los cambios realizados en git-nuestro.md seguirían presentes. Sin embargo,
 añadiendo la opción `--hard` al comando anterior le indicamos que los cambios en el working copy
-también vuelvan al estado anterior por lo que tendremos la versión original del fichero.</p>
+también vuelvan al estado anterior por lo que tendremos la versión original del fichero.
 
 # - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
